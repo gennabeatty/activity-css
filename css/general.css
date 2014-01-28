@@ -8,20 +8,40 @@ body {
    
 h1 {
     font-family: Rockwell, "Times New Roman", monospace; 
-    font-weight: Normal; 
-    font-size: 3rem; /*1 rem = 16 pixels */
+    font-weight: bold; 
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin:1.5rem;
+    line-height: 2.75rem; 
+    color: #62007C; 
 }
 
 h2 {
     font-family: Rockwell, "Times New Roman", monospace;
-    font-weight: 500;
+    font-size: 1.2rem;  
+    font-weight: 100; 
+    line-height: 1.5rem;
+    margin:  1.5rem;
 }
 
-img {
-    width:450px;
-    border: 10px solid yellow ;
-    margin:10px;
-    
+.img1 {
+    width:100px;
+    margin: 9px;   
+    padding: 1.2rem;
+}
+
+.img2 {
+    width:180px;
+    border: 10px solid yellow;
+    margin: 9px;
+    float: center; 
+}
+
+.img3 {
+    width:180px;
+    border: 10px solid yellow;
+    margin: 2rem;
+    float: right; 
 }
 
 p {
@@ -29,14 +49,15 @@ p {
     font-weight: 200;
 }
 
+p + em {
+    font-style: italic;
+} 
+
 p, li {
     font-size: 1rem; 
     line-height: 1.5rem;
-}
-
-h1 + p {
-    font-size: 1.5rem;
-    line-height: 1.75rem;
+    list-style-type: circle; 
+    list-style-position: inside;
 }
 
 strong {
@@ -44,7 +65,8 @@ strong {
 }
 
 li strong {
-    color: #39F;
+    color: #B2007C;
+    font-weight: 600;
 }
 
 em {
@@ -53,4 +75,9 @@ em {
 
 li {
     color: #004;
+}
+
+.bottom {
+    font-size: .75rem; 
+    float: right; 
 }
