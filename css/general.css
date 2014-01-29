@@ -22,10 +22,12 @@ h2 {
     font-weight: 100; 
     line-height: 1.5rem;
     margin:  1.5rem;
+    text-align: center;
 }
 
 .img1 {
-    width:100px;
+    width:9rem;
+    position: relative; 
     margin: 9px;   
     padding: 1.2rem;
 }
@@ -79,5 +81,7 @@ li {
 
 .bottom {
     font-size: .75rem; 
-    float: right; 
+    background-color: #CCC; 
+    color: #FFF; 
+    text-align: right; 
 }
