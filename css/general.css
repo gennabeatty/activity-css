@@ -12,7 +12,7 @@ h1 {
     font-size: 3rem;
     text-transform: uppercase;
     margin:1.5rem;
-    line-height: 2.75rem; 
+    line-height: 2.75rem;
     color: #62007C; 
 }
 
@@ -22,14 +22,11 @@ h2 {
     font-weight: 100; 
     line-height: 1.5rem;
     margin:  1.5rem;
-    text-align: center;
 }
 
 .img1 {
-    width:9rem;
-    position: relative; 
-    margin: 9px;   
-    padding: 1.2rem;
+    width:7rem;
+    margin: 9px;
 }
 
 .img2 {
@@ -84,4 +81,5 @@ li {
     background-color: #CCC; 
     color: #FFF; 
     text-align: right; 
+    
 }
